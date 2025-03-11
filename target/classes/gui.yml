@@ -1,0 +1,53 @@
+WARNING_LIST_GUI:
+  title: '경고 히스토리'
+  items:
+    decoration_item:
+      display: ''
+      material: BLACK_STAINED_GLASS_PANE
+      modeldata: 0
+    next_button:
+      display: '&e&l다음 페이지'
+      material: PAPER
+      modeldata: 1246
+      lore:
+        - ''
+        - ' &f클릭 시 다음 페이지로 이동합니다. '
+        - ' '
+    previous_button:
+      display: '&e&l이전 페이지'
+      material: PAPER
+      modeldata: 1246
+      lore:
+        - ''
+        - ' &f클릭 시 이전 페이지로 이동합니다. '
+        - ' '
+    warning_info_item:
+      display: '&e&l현재 상태'
+      material: BOOK
+      modeldata: 1246
+      lore:
+        - '&a누적 경고: &f%count%'
+        - '&a진행중인 처벌: &f%punish_list%'
+    warning_increase_item:
+      display: '&c&l경고 지급 &8&o(#%id%)'
+      material: WRITABLE_BOOK
+      modeldata: 0
+      lore:
+        - ''
+        - ' &e누적경고: &f%count%회'
+        - ' &e처리자: &f%player_name% '
+        - ' &e일시: &f%date% '
+        - ' &e사유: &f%reason% '
+        - ' &e처벌: &f%punish_type% '
+        - ''
+    warning_decrease_item:
+      display: '&c&l경고 차감 &8&o(#%id%)'
+      material: WRITABLE_BOOK
+      modeldata: 0
+      lore:
+        - ''
+        - ' &e누적경고: &f%count%회'
+        - ' &e처리자: &f%player_name% '
+        - ' &e일시: &f%date% '
+        - ' &e사유: &f%reason% '
+        - ''

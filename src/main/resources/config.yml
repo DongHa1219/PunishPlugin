@@ -1,0 +1,12 @@
+# 경고를 줄때 전체메시지를 발송할지에 대한 여부를 설정합니다.
+WARNING_BROADCAST:
+  # 경고가 지급될때의 알림
+  increase: true
+  # 경고가 차감될때의 알림
+  decrease: true
+
+# 날짜를 어떻게 표시할지를 설정합니다.
+DATE_FORMAT: 'yyyy.MM.dd HH:mm:ss'
+
+# 블라인드 처벌이 진행중일때 알림 메세지가 몇초 간격으로 보내지는지를 설정합니다.
+BLIND_CHAT_PERIOD: 30

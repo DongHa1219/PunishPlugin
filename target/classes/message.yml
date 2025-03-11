@@ -1,0 +1,40 @@
+PUNISH:
+  mute_message:
+    - ''
+    - '경고누적으로 채팅이 금지되었습니다.'
+    - '해제일시: %date%'
+    - ''
+  kick_message:
+    - '&c&l경고누적으로 계정이 정지되었습니다.'
+    - ' '
+    - '&f해제 일시: %date%'
+  ban_message:
+    - '&c&l경고누적으로 계정이 영구정지되었습니다.'
+  blind_message:
+    - ''
+    - '&f경고 누적으로 블라인드 처벌이 진행중입니다.'
+    - '해제일시: %date%'
+    - ''
+
+INCREASE:
+  warning_increase_receive:
+    - '관리자에 의해서 경고 %count%회를 지급받았습니다.'
+    - '사유: %reason%'
+  warning_increase_broadcast:
+    - ''
+    - ' %player_name%님이 &e경고 %count%회&f를 지급받았습니다. '
+    - '   &eㄴ 사유: &f%reason% '
+    - ''
+
+DECREASE:
+  warning_decrease_receive:
+    - '관리자에 의해서 경고 %count%회가 차감되었습니다.'
+    - '사유: %reason%'
+  warning_decrease_broadcast:
+    - ''
+    - ' %player_name%님의 &e경고 %count%회&f가 차감되었습니다. '
+    - '   &eㄴ 사유: &f%reason% '
+    - ''
+
+NO_PERMISSION: '권한이 부족합니다.'
+WARNING_RESET: '관리자에 의해서 모든 경고가 초기화되었습니다.'
